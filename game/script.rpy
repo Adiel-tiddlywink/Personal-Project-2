@@ -19,7 +19,7 @@ label splashscreen:
     # 2. Pause on the black screen for 0.5 seconds
     $ renpy.pause(0.5)
     
-    # 3. Show your custom logo with a smooth 1-second dissolve transition
+    # 3. Show custom logo with a smooth 1-second dissolve transition
     show logo_intro with dissolve
     
     # 4. Keep the logo on screen for 2.5 seconds
@@ -63,8 +63,8 @@ s "Let's get this show going, [player]!"
 
 scene backstreet with fade
 "You, [player], are dropped off at the exit of Kaerdence National Airport with only your luggage and dreams..
-What dreams? Up to you, bud. You're walking across the airport, the rustle of the bag on your back faint against the loud noises of people walking and talking
-as you head to find some food."
+What dreams? Up to you, bud. You're walking across the airport, the rustle of the bag on your back faint against the loud noises of people walking 
+and talking as you head to find some food."
 
 "Along the way, you come across a convenience store, no name on it but it does have two vending machines on each side of the door,
 pretty convenient."
