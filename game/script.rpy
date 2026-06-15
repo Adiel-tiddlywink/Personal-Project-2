@@ -73,9 +73,19 @@ menu:
     "Do you enter?"
 
     "Yes.":
-        scene convenience_store with fade
-        "You enter the convenience store, and are greeted by shelves of food, and aisles of snacks along the flooring."
+        jump convenience_store 
 
-    "No.": 
+    "No.":
         show screen custom_popup(title="Ending Found!", message="You discovered the 'Going Home Hungry' ending!", button_text="Close",)
-$ renpy.pause(hard=True)
+
+label convenience_store:
+    scene convenience_store with fade
+    "You enter the convenience store, and are greeted by shelves of food, and aisles of snacks along the flooring and a few things catch your eye."
+    "You come to realize that.. there's no one else in here. No customers, no cashiers.."
+
+    show maihi exclaim casual sneakers at fullbody_pos
+    s "Oh, hey! Uhhh.. theres no one here right now!"
+    $ m_brow = "suspicious"
+    s "Why not come back a little later on?"
+
+    $ renpy.pause(hard=True)
