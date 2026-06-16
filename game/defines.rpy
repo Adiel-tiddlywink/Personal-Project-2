@@ -1,0 +1,7 @@
+define s = Character("Shoni", color="#7a7fc5")
+image mov_back = Movie(size=(1920, 1080), play="images/background.ogg")
+image city = ("city.jpg")
+image airport = ("airport.png")
+image backstreet = ("Backstreet_Spring_Afternoon.png")
+image busstop = ("BusStop_Summer_Cloudy.png")
+image walking = ("walking.png")
