@@ -1,7 +1,5 @@
-# Define the logo image (optional but recommended for clean code)
 image logo_intro = "logo.jpg"
 
-# This special label tells Ren'Py to run this block before loading the main menu
 label splashscreen:
     
     # Start with a clean black screen
