@@ -1,5 +1,3 @@
-image logo_intro = "logo.jpg"
-
 label splashscreen:
     
     # Start with a clean black screen
